@@ -24,6 +24,7 @@ issuer   = "rPB7vXTeWrQ5nxEpQbLvay8nfJUJfeecYL"
 currency = "XNET"
 name     = "XNET"
 desc     = "The first token to be used for payments for NSFW (18+) content on the XRPL"
+icon     = "https://raw.githubusercontent.com/TeamXNET/meta/main/icon.png"
 
 [[TOKENS.WEBLINKS]]
 url   = "https://xnet.cam"
