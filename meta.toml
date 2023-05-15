@@ -1,0 +1,35 @@
+[[ISSUERS]]
+address = "rPB7vXTeWrQ5nxEpQbLvay8nfJUJfeecYL"
+name    = "XNET"
+
+[[ISSUERS.WEBLINKS]]
+url   = "https://xspunk.xyz/"
+type  = "info"
+title = "Official Website"
+
+[[ISSUERS.WEBLINKS]]
+url  = "https://twitter.com/xspunksxrpl"
+type = "socialmedia"
+
+[[ISSUERS.WEBLINKS]]
+url  = "https://www.instagram.com/xspunks/"
+type = "socialmedia"
+
+[[ISSUERS.WEBLINKS]]
+url  = "https://t.me/+SsFw4oqH93c0YTI0"
+type = "community"
+
+[[TOKENS]]
+issuer   = "rPB7vXTeWrQ5nxEpQbLvay8nfJUJfeecYL"
+currency = "XNET"
+name     = "XNET"
+desc     = "The first token to be used for payments for NSFW (18+) content on the XRPL"
+
+[[TOKENS.WEBLINKS]]
+url   = "https://xnet.cam"
+type  = "info"
+title = "Official Website"
+
+[[TOKENS.WEBLINKS]]
+url  = "https://discord.gg/uhr2XT8dGu"
+type = "community"
