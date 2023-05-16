@@ -1,4 +1,4 @@
-name: Deploy XRPL metadata
+name: Deploy XRPL Metadata
 
 on:
   push:
