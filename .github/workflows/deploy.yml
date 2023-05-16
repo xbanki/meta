@@ -15,4 +15,17 @@ jobs:
       - name: Create build directory
         run:  mkdir build
 
-      - run: ls
+      - name: Create metadata destination directory
+        run:  mkdir build/.well-known
+
+      - name: Copy metadata into target directory
+        run:  cp ./meta.toml build/.well-known/xrpl-ledger.toml
+
+      - name: Configure domain CNAME
+        run:  echo "xrp.services.xnet.cam" >> build/CNAME
+
+      - name: Configure Jekyll
+        run:  echo "" >> build/.nojekyll
+
+      - name: "DEBUG: List directory contents"
+        run:  cat * */* */*/*
