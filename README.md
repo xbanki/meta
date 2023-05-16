@@ -4,11 +4,10 @@
 
 <p align='center'>
 	<samp> XNET token metadata. </samp>
-
 	<br>
 	<br>
-
 	<img src='https://github.com/TeamXNET/meta/actions/workflows/deploy.yml/badge.svg' alt='Deploy Status'/>
+	<br>
 </p>
 
 > Issues and pull requests are disabled in this repo, as it only hosts the token metadata.
